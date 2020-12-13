@@ -14,9 +14,15 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
    
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
         <a href="#" class="navbar-brand">PROFİLİM</a>
-        <div class="collapse navbar-collapse">
+
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-PROFİLİM" aria-controls="navbar-PROFİLİM">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="#navbar-PROFİLİM">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a href="#" class="nav-link">Eğitim</a>
@@ -36,8 +42,15 @@
                 <li class="nav-item">
                     <a href="#" class="nav-link">İletişim</a>
                 </li>
-            </ul>
             
+            </ul>
+            <form class="form-inline my-2 my-lg-0" class="float-right"> 
+                <input class="form-control form-control-sm mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-sm btn-info my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            
+            
+        </div>
         </div>
 
 
