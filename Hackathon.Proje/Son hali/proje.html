@@ -29,7 +29,7 @@
         crossorigin="anonymous"></script>
 
 
-
+    <!-- 
     <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
         <div class="container">
             <a href="#" class="navbar-brand">PROFİLİM</a>
@@ -75,6 +75,44 @@
         </div>
 
 
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Eğitim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Deneyimler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Makaleler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Beceriler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Referans</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">İletişim</a>
+                    </li>
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
     </nav>
 
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -87,11 +125,31 @@
     </div>
 
 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h1>TEst Bşlık YAzısı</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img src="./b.png" style="width: 1;" />
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 
+
 
 
     <div class="container-fluid" style="background-color: white; height: 475px;">
         <div class="row">
-            <div class="col-lg-4 col-md-6 col-s-8 col-xs-12" style="margin-top: 90px; padding: auto;">
+            <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12" style="margin-top: 90px; padding: auto;">
                 <h3 style="font-family:Georgia, 'Times New Roman', Times, serif"
                     class="wow animate__animated animate__fadeInTopLeft">Çalışmalarım</h3><br>
                 <p
@@ -105,7 +163,7 @@
                         class="btn btn-dark">Devamını oku</button></p>
 
             </div>
-           <div class="col-lg-8 col-md-6 col-s-4 col-xs-12 ">
+           <div class="col-lg-8 col-md-6 col-sm-4 col-xs-12 ">
                 <img src="diamond2.jpg" class="wow animate__animated animate__zoomIn">
             </div>
         </div>
@@ -156,7 +214,7 @@
         </div>
     </div>
 
-
+ -->
 
     <div class="container-fluid" style="background-color: black; height:150px;">
         <div>
@@ -174,16 +232,16 @@
 
         var wow = new WOW(
             {
-                boxClass: 'wow',     
-                animateClass: 'animated', 
-                offset: 0,         
-                mobile: true,      
-                live: true,       
+                boxClass: 'wow',
+                animateClass: 'animated',
+                offset: 0,
+                mobile: true,
+                live: true,
                 callback: function (box) {
-                    
+
                 },
-                scrollContainer: null,    
-                resetAnimation: true,     
+                scrollContainer: null,
+                resetAnimation: true,
             }
         );
         wow.init();
